@@ -12,6 +12,8 @@ nav a {
      font-size: 20px;
      text-decoration: none;
      color:rgba(212, 12, 12, 0.986)
+     display: flex;
+    justify-content: center;
  }
  h1 {
      color: rgb(9, 15, 15);
