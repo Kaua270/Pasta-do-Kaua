@@ -1,27 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mentor de Carreiras com IA</title>
     <link rel="stylesheet" href="style.css">
-    <title> ATHLETICO-PR </title>
 </head>
 <body>
+
     <header>
-        <a href="https://youtu.be/jUghq03kdbc?si=KOjsuSdIuRil2LCI"></a>
-    <h1>ATHLETICO-PR</h1>
-<P class="Mastriani">o Club <strong>Athletico Paranaense</strong>, popularmente conhecido como furacão,foi criado em <strong> 26 de março de 1924</strong>em Curitiba, Paraná, após a fusão de dois clubes locais: o Internacional Foot-Ball Club e o América Foot-Ball Club. O objetivo era fortalecer o futebol da região e criar uma equipe mais competitiva. Desde então, o Athletico tornou-se um dos clubes mais tradicionais do Brasil, com destaque no cenário nacional e internacional.</P>
-<img class="escudo" src="download.png"</img>
-<h2> Títulos do ATHLETICO-PR</h2>
-<ol>
-    <l>28 títulos estaduais</l>
-    <l>2Sul-Americana (2018 e 2021)</l>
-    <l>1 Copa do Brasil (2019)</l>
-    <l>1 Campeonato Brasileiro (2001)</l>
-<img class="titulos" src="maxresdefault (2).jpg"</img>
-</ol>
-<P>Conhecido por sua torcida apaixonada e seu estádio moderno, a Arena da Baixada, o Athletico é também reconhecido por investir em categorias de base e inovação no futebol brasileiro.</P>
-<P>A mudança na grafia do nome, de Atlético para Athletico, em 2018, fez parte de um processo de modernização da identidade visual do clube, que busca se consolidar cada vez mais no cenário internacional.</P>
+        <h1>🚀 Meu Futuro Profissional</h1>
+        <p>Descubra profissões que combinam com você!</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>🤖 Mentor de Carreiras</h2>
+            <p>
+                Responda às perguntas abaixo e descubra
+                quais profissões combinam com seu perfil.
+            </p>
+
+            <form id="careerForm">
+
+                <label>1. Qual área mais desperta seu interesse?</label>
+                <select id="interesse" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="saude">Saúde</option>
+                    <option value="educacao">Educação</option>
+                    <option value="criatividade">Arte e criatividade</option>
+                    <option value="negocios">Negócios</option>
+                </select>
+
+                <label>2. Qual é sua principal habilidade?</label>
+                <select id="habilidade" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="logica">Raciocínio lógico</option>
+                    <option value="comunicacao">Comunicação</option>
+                    <option value="criatividade">Criatividade</option>
+                    <option value="empatia">Empatia</option>
+                    <option value="organizacao">Organização</option>
+                </select>
+
+                <label>3. Como prefere trabalhar?</label>
+                <select id="trabalho" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="equipe">Em equipe</option>
+                    <option value="sozinho">Individualmente</option>
+                    <option value="ambos">Das duas formas</option>
+                </select>
+
+                <label>4. O que você mais valoriza em uma profissão?</label>
+                <select id="objetivo" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="estabilidade">Estabilidade financeira</option>
+                    <option value="ajudar">Ajudar pessoas</option>
+                    <option value="inovacao">Inovação e desafios</option>
+                    <option value="liberdade">Liberdade e criatividade</option>
+                </select>
+
+                <button type="submit">Descobrir minha carreira ✨</button>
+
+            </form>
+
+            <div id="resultado"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto educacional desenvolvido com apoio da Inteligência Artificial.</p>
+        <p>Mentor de Carreiras © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
